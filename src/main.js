@@ -1,6 +1,6 @@
+function runChatForm(){
 document.querySelector('.form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Предотвращаем перезагрузку страницы
-
+    event.preventDefault(); 
 
 const nameInput = document.querySelector('.name-input');
 const messageInput = document.querySelector('.message-input');
@@ -21,3 +21,7 @@ username.value = '';
 message.value = '';
 }
 });
+}
+document.addEventListener('DOMContentLoaded', runChatForm);
+
+module.exports = runChatForm;

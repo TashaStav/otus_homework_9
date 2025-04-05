@@ -6,9 +6,6 @@ body {
     max-width: 1440px;
 }
 
-/* .body-chat{
-    overflow: hidden;
-} */
 .header {
     max-width: 1440px;
     max-height: 80px;
@@ -153,6 +150,8 @@ a {
     background-color:#232536;
     text-transform: uppercase;
     margin-left: 80px;
+    margin-bottom: 80px;
+    cursor: pointer;
 }
 .btn a {
     color:white;
