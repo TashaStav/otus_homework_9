@@ -1,14 +1,82 @@
 .header {
-width: 1440px;
-height: 80px;
-background-color:#232536;
-margin: 0 auto;
+    max-width: 1440px;
+    max-height: 80px;
+    margin: 0 auto;
+    background-color:#232536;
+    margin-bottom: 30px;
 }
 
 .logo {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
     color:white;
     margin: 0;
     margin-top: 13px;
+    margin-left: 20px;
 }
+
+.title {
+    font-style: normal;
+    color: #232536;
+    max-width: 1282px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0;
+    margin: 0 auto;
+
+}
+
+.line {
+    opacity: 0.32;
+    border: 1px solid #6D6E76;
+    max-width: 1282px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.article {
+    display: flex;
+    max-width: 1282px;
+    max-height: 318px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.article-content {
+    margin: 10px 100px 10px 32px;
+}
+
+.article-teg{
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #592EA9;
+}
+
+.article-title {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.article-text {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+
