@@ -1,3 +1,10 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .header {
     max-width: 1440px;
     max-height: 80px;
@@ -27,9 +34,11 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    margin: 0;
     margin: 0 auto;
+}
 
+.article-title {
+    max-width: 1100px;
 }
 
 .line {
@@ -62,12 +71,17 @@
     color: #592EA9;
 }
 
+a {
+    color: #232536;
+    text-decoration: none;
+}
 .article-title {
     font-family: "Sen", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
+    margin-bottom: 40px;
 }
 
 .article-text {
@@ -79,4 +93,63 @@
     color: #6D6E76;
 }
 
+.about_author {
+    display: flex;
+    max-width: 1440;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
 
+.author-wrp {
+    margin-left: 30px;
+}
+
+.author-name {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 10px;
+    color: #592EA9;
+}
+
+.date {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    ont-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+.author-photo {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.main-img {
+    max-width: 1280px;
+    margin: 0 80px 40px 80px;
+}
+
+.article-wrp {
+    width: 1280;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:#232536;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+.btn a {
+    color:white;
+}
