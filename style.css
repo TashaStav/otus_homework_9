@@ -5,6 +5,10 @@ body {
     margin: 0 auto;
     max-width: 1440px;
 }
+
+/* .body-chat{
+    overflow: hidden;
+} */
 .header {
     max-width: 1440px;
     max-height: 80px;
@@ -117,7 +121,7 @@ a {
     font-family: "Sen", sans-serif;
     font-style: normal;
     font-weight: 400;
-    ont-size: 16px;
+    font-size: 16px;
     line-height: 28px;
     color: #6D6E76;
 }
@@ -152,4 +156,42 @@ a {
 }
 .btn a {
     color:white;
+}
+
+.chat-wrp {
+    max-height: 410px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.chat-input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap:20px;
+}
+
+.form-name{
+    margin-bottom: 20px;
+}
+
+.chat-btn {
+    width: 100px;
+    height: 54px;
+    color: white;
+    margin-left: 0;
+    border-radius: 5px;
+  }
+
+.message {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:10px;
+    overflow-y: scroll;
+}
+
+.name-input {
+    color:#592EA9;
 }
